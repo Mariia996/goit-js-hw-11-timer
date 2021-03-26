@@ -1,0 +1,11 @@
+body {
+  font-family: "Syne Mono", monospace;
+  font-size: 26px;
+  letter-spacing: normal;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
