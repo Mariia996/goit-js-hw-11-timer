@@ -1,11 +1,41 @@
 body {
   font-family: "Syne Mono", monospace;
-  font-size: 26px;
+  font-size: 24px;
   letter-spacing: normal;
+  color: #944018;
+  background-color: #c5a26c;
 }
 
 .timer {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 
+.field {
+  width: 65px;
+  margin-right: 20px;
+  padding: 5px 5px;
+
+  background-image: linear-gradient(to top left, #72d9eae6, #53afd183);
+  border-radius: 3px;
+  border: 1px solid #5c858b;
+  box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+}
+.field:last-child {
+  margin-right: 0;
+}
+
+.field > span {
+  display: block;
+  text-align: center;
+}
+
+.value {
+  border-bottom: 1px solid rgba(92, 133, 139, 0.5);
+  border-bottom-style: dotted;
+}
+
+.label {
+  font-size: 16px;
+}
