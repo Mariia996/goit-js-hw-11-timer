@@ -3,7 +3,7 @@ body {
   font-size: 30px;
   letter-spacing: normal;
   color: #944018;
-  background-color: #c5a26c;
+  background-image: linear-gradient(to right, #8a2387, #e94057, #f27121);
 
   box-sizing: border-box;
 }
@@ -19,7 +19,7 @@ body {
   margin-right: 20px;
   padding: 5px 5px;
 
-  background-image: linear-gradient(to top left, #72d9eae6, #53afd183);
+  background-image: linear-gradient(to right, #0083b0, #00b4db);
   border-radius: 3px;
   border: 1px solid #5c858b;
   box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
